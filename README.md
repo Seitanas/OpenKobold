@@ -10,3 +10,7 @@ All hail mighty **OpenKobold**
 Have fun.  
 Please don't kill each other...  
 
+![](https://github.com/Seitanas/OpenKobold/blob/master/IMG_20180302_232357.jpg)
+![](https://github.com/Seitanas/OpenKobold/blob/master/IMG_20180302_232406.jpg)
+![](https://github.com/Seitanas/OpenKobold/blob/master/IMG_20180302_232519.jpg)
+![](https://github.com/Seitanas/OpenKobold/blob/master/IMG_20180302_234550.jpg)
