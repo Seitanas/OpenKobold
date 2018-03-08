@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7830,15 +7830,15 @@ Created by mzst on 17-Jan-2016</description>
 <part name="U1" library="Microchip_By_element14_Batch_1" deviceset="PIC12F675-I/SN" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0805"/>
+<part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="MMBT2222ALT1" value="MMBT2222A"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="4k"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="SG1" library="SparkFun" deviceset="BUZZER" device="PTH"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="SW1" library="MSK-12C02 SMD Micro Slider Switch SPDT" deviceset="MSK-12C02_SMD_SPDT_SWITCH" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="BT2" library="seitan" deviceset="BATTERY" device="-12MM_SMD"/>
+<part name="BT2" library="seitan" deviceset="BATTERY" device="-12MM_SMD" value="CR1220"/>
 </parts>
 <sheets>
 <sheet>
@@ -7851,7 +7851,7 @@ Created by mzst on 17-Jan-2016</description>
 <instance part="T1" gate="G$1" x="101.6" y="73.66"/>
 <instance part="R1" gate="G$1" x="88.9" y="58.42"/>
 <instance part="GND4" gate="1" x="104.14" y="63.5"/>
-<instance part="SG1" gate="G$1" x="114.3" y="85.09" rot="MR0"/>
+<instance part="SG1" gate="G$1" x="114.3" y="92.71" rot="MR0"/>
 <instance part="+3V3" gate="G$1" x="116.84" y="68.58" rot="R180"/>
 <instance part="C3" gate="G$1" x="8.89" y="46.99" rot="R180"/>
 <instance part="SW1" gate="MSK-12C02" x="-12.7" y="72.39"/>
@@ -7896,7 +7896,7 @@ Created by mzst on 17-Jan-2016</description>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="116.84" y1="71.12" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SG1" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="82.55" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="90.17" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -7933,8 +7933,8 @@ Created by mzst on 17-Jan-2016</description>
 <segment>
 <pinref part="T1" gate="G$1" pin="C"/>
 <pinref part="SG1" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="78.74" x2="104.14" y2="82.55" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="82.55" x2="111.76" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="78.74" x2="104.14" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="90.17" x2="111.76" y2="90.17" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

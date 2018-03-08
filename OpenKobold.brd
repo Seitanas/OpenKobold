@@ -1663,11 +1663,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-3.8481" y="50.7238" size="2.0828" layer="25" ratio="10" rot="SR90"/>
 <attribute name="VALUE" x="3.6322" y="42.0624" size="2.0828" layer="27" ratio="10" rot="SR90"/>
 </element>
-<element name="T1" library="transistor" package="SOT23-BEC" value="" x="4.1275" y="48.895" smashed="yes" rot="R270">
+<element name="T1" library="transistor" package="SOT23-BEC" value="MMBT2222A" x="4.1275" y="48.895" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.08" y="52.07" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="0.9525" y="50.8" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R1" library="rcl" package="R0805" value="" x="-0.9525" y="53.0225" smashed="yes">
+<element name="R1" library="rcl" package="R0805" value="4k" x="-0.9525" y="53.0225" smashed="yes">
 <attribute name="NAME" x="-2.8575" y="53.975" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-1.5875" y="50.4825" size="1.27" layer="27"/>
 </element>
@@ -1675,12 +1675,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="0.9525" y="46.99" size="1.27" layer="26" ratio="10" rot="MR270"/>
 <attribute name="VALUE" x="11.7475" y="53.975" size="1.27" layer="28" ratio="10" rot="MR270"/>
 </element>
-<element name="C3" library="rcl" package="C0805" value="" x="-5.08" y="47.3075" smashed="yes" rot="R270">
+<element name="C3" library="rcl" package="C0805" value="0.1uF" x="-5.08" y="47.3075" smashed="yes" rot="R270">
 <attribute name="NAME" x="-6.0325" y="45.72" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="-7.62" y="48.5775" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="SW1" library="MSK-12C02 SMD Micro Slider Switch SPDT" package="MSK-12C02" value="MSK-12C02_SMD_SPDT_SWITCH" x="-1.27" y="33.3375"/>
-<element name="BT2" library="seitan" package="BATTCON_12MM" value="" x="3.81" y="36.5125" rot="MR180">
+<element name="BT2" library="seitan" package="BATTCON_12MM" value="CR1220" x="3.81" y="36.5125" rot="MR180">
 <attribute name="SF_SKU" value="PRT-10592" x="3.81" y="36.5125" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PROD_ID" value="BATT-08044" x="3.81" y="36.5125" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
